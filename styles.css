@@ -9,7 +9,7 @@
     --secondary-font: 'Times New Roman', serif;
     --primary-color: #1f1137;
     --light-purple: #F3E5FF;
-    --offwhite: #C4C4C4;
+    --gray: #C4C4C4;
 }
 
 html {
@@ -38,8 +38,6 @@ body {
     font-size: 4rem;
 }
 
-
-
 .question {
     font-weight: lighter;
     font-size: 2rem;
@@ -62,7 +60,8 @@ body {
 }
 
 .btn:hover:not([disabled]) {
-    background-color: var(--offwhite);
+    background-color: var(--gray);
+    cursor: pointer;
 }
 
 .btn:disabled {
@@ -79,6 +78,10 @@ body {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.next__btn:hover {
+    cursor: pointer;
 }
 
 .correct {

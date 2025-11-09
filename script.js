@@ -75,7 +75,7 @@ function handleNextButton() {
 }
 
 nextButton.addEventListener("click", () => {
-    if (nextButton.innerContent === "Play Again") {
+    if (nextButton.textContent === "Play Again") {
         startQuiz();
     } else {
         handleNextButton();
