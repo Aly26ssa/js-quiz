@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Quiz App</title>
+    <script src="script.js" type="module" defer></script>
 </head>
 <body>
     <div class="quiz">
-        <h1>JS Quiz</h1>
+        <h1 class="quiz__title">JS Quiz</h1>
+        <br>
         <div class="questions">
-            <h2 id="question">Question</h2>
-            <div id="answer-btns">
+            <h2 class="question">Question</h2>
+            <div class="answer__btns">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
             </div>
-            <button id="next-btn">Next Question</button>
+            <button class="next__btn">Next Question</button>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
